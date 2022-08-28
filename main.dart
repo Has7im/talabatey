@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:talabatey/Screen1/SplasshScreen.dart';
 import 'package:talabatey/Screen2/HomeScreen.dart';
-
+import 'package:talabatey/Screen3/mneuScreen.dart';
 void main() {
-  runApp(MaterialApp(home: SplasshScreen(),));
+  runApp(MaterialApp(debugShowCheckedModeBanner: false,home: mneuScreen()));
 }
 
 class MyApp extends StatelessWidget {
